@@ -12,10 +12,7 @@ module.exports = {
     {
       resolve: "gatsby-source-wordpress",
       options: {
-        schema: {
-          timeout: 3000000,
-        },
-        url: "http://cms-development.ismatfaizi.gpro.apstudent.be/graphql",
+        url: "http://faizi-agency.local/graphql",
       },
     },
   ],
